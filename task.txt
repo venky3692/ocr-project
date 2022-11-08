@@ -1,0 +1,8 @@
+Create a flask/crud application where you have to do ocr for images using tesseract and store the extracted text in the db of your choice and simultaneously you have to save the same data into a google sheet.
+
+create crud operations in such a way that you write update-single, update-one  delete-single, delete-multiple , get-single,get-all, create single, create-multiple batches. these data are to be stored in db as well as gsheet.
+
+eg : dbs -> tabl1 - image info, table-2 - extracted text info of image, use Joins(sql)/aggregate(mongo) whichever db you are using. 
+
+how you will insert data and what all parameters you want to add in db its upto you 
+make sure that you follow the folder structure properly. 
