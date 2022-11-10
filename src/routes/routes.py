@@ -4,7 +4,7 @@ from src.utils.utils import read_image
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
-# API KEY: AIzaSyA1m0wMnB2AOKWHShHid9NZjSyPc7l_tH8
+
 
 scope = ["https://spreadsheets.google.com/feeds","https://www.googleapis.com/auth/spreadsheets",\
     "https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
